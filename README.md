@@ -25,7 +25,7 @@ If the code involves dictionaries, check for KeyError where a non-existent key i
 
 If the initial checks don't reveal the problem, broaden your focus to more conceptual issues.
 
-Consider AttributeError by examining if a method is being called on an object that doesn't have it.
+Consider AttributeError by examining if a method is being called on an object that it doesn't have.
 
 Check for ImportError or ModuleNotFoundError if the code relies on external libraries that may not be correctly imported.
 
@@ -78,3 +78,6 @@ The prompt can be adapted for different learner levels by adjusting the level of
 **For Beginner Learners:** The prompt would be more explicit about common errors and provide simpler, more direct hints. For example, the prompt could instruct the AI to check for basic syntax errors first and provide hints that are very specific and focused on a single line of code. The tone would also be even more supportive to prevent frustration.
 
 **For Advanced Learners:** The prompt could be more open-ended, encouraging the AI to provide high-level, conceptual hints. Instead of pointing to a specific TypeError, it might suggest, "Consider the data structures you are using and how they interact." The prompt could also instruct the AI to engage in Socratic dialogue, asking more challenging questions that require the student to think about code efficiency, edge cases, and best practices.
+
+## 4. Setup Instructions
+This task is a conceptual submission and does not require a specific software setup or code to run. The project's content is a single text file that can be viewed on any platform. The prompt itself is intended to be used with an AI language model like ChatGPT or Gemini or relevent usuals.
